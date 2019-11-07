@@ -1,0 +1,68 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+b{
+	font-size: 16px;
+}
+.red{
+	color: #d6384c;
+}
+.green{
+	color: #44a167;
+}
+table {
+    /* border-collapse: collapse; */
+    border-spacing: 0;
+}
+table.blueTable {
+  background-color: transparent;
+  text-align: left;
+  margin-bottom: 20px;
+  border: 10px solid #1a89ba;
+  width: 32%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.blueTable>caption+thead>tr:first-child>td, .blueTable>caption+thead>tr:first-child>th, .blueTable>colgroup+thead>tr:first-child>td, .blueTable>colgroup+thead>tr:first-child>th, .blueTable>thead:first-child>tr:first-child>td, .blueTable>thead:first-child>tr:first-child>th {
+    border-top: 0;
+}
+table.blueTable tbody td h3 {
+  color:#0f8bc9;
+}
+	
+.blueTable>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+.blueTable>tbody>tr>td, .blueTable>tbody>tr>th, .blueTable>tfoot>tr>td, .blueTable>tfoot>tr>th, .blueTable>thead>tr>td, .blueTable>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    /* vertical-align: top; */
+    border-top: 1px solid #ddd;
+}
+table.blueTable tr td:nth-child(even) {
+  text-align: right;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+    text-align: center;
+    padding: 8px;
+}
+table.blueTable tfoot .links a{
+	  text-decoration: none;
+    color: #356898;
+    font-size: 22px;
+}
